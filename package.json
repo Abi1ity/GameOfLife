@@ -1,0 +1,30 @@
+{
+  "name": "sails-vue-boilerplate",
+  "private": true,
+  "version": "0.0.0",
+  "description": "a Sails application",
+  "keywords": [],
+  "dependencies": {
+    "ejs": "^2.4.2",
+    "include-all": "~0.1.6",
+    "rc": "1.0.1",
+    "sails": "~0.12.3",
+    "sails-disk": "~0.10.9",
+    "sails-hook-vuewebpack": "^1.0.0",
+    "vue": "^3.0.0-rc.5"
+  },
+  "scripts": {
+    "debug": "node debug app.js",
+    "start": "node app.js"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pascalmartineau/sails-vue-boilerplate.git"
+  },
+  "author": "pascalmartineau",
+  "license": "",
+  "devDependencies": {
+    "sails-hook-autoreload": "^0.13.1"
+  }
+}
